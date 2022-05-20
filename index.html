@@ -8,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="style.css">
 
@@ -50,11 +51,21 @@
                 </div>
            </div>
 
-          
+            <div class="Funny">
+                <button class="control">Prev</button>
+                <div class="slide-container">
+                    <div class="slides">
+                        <video width="100%" height="100%" autoplay muted controls loop>
+                            <source src="video-1.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+                <button class="control">Next</button>
+            </div>
 
             <div class="Contact bg-white">
                 <label>Contact</label>
-                <form method="get">
+                <form method="post" onsubmit="sendMessage()">
                     <div class="form-group">
                         <input required type="email" name="Email" class="form-control" placeholder="Email">
                     </div>
@@ -65,7 +76,7 @@
                         <textarea required class="form-control" placeholder="Enter your message" style="height: 120px;"></textarea>
                     </div>
                     <div class="form-group">
-                        <button class="btn btn-primary">Send message</button>
+                        <button class="btn btn-primary" type="submit">Send message</button>
                     </div> 
                 </form>
            </div>
@@ -86,6 +97,11 @@
         </p>
         <p>© All rights reserved - Sonic</p>
     </footer>
-
+<script type="text/javascript">
+    function sendMessage () 
+    {
+        alert('Successfully! Thankyou Bro =))))))))))')
+    }
+</script>
 </body>
 </html>

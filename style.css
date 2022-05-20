@@ -49,23 +49,19 @@ footer{
             background-size: cover;
 }
 
+
  .AboutMe {
 	height: 400px;
 	margin-top: 40px;
 }
 
  .Projects {
-	height: 300px;
+	height: 350px;
 	margin-top: 40px;
 }
 
 .Contact {
 	height: 450px;
-	margin-top: 40px;
-}
-
-.Skills {
-	height: 300px;
 	margin-top: 40px;
 }
 

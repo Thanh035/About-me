@@ -33,8 +33,8 @@
            <div class="AboutMe bg-white">
                 <label>About me</label>
                 <div class="form-group">
-                    <div class="logo">
-                        <img src="profile.png">
+                    <div class="logo" >
+                        <img src="profile.png" id="rotate" >
                     </div>
                     <div class="content">
                         - Có tư duy logic và kĩ năng giải quyết vấn đề.Là người thích những cái mới,suy nghĩ thực tế nhưng cũng rất giàu trí tưởng tượng cũng khả năng sáng tạo ,biết lắng nghe và tập trung cao độ. 
@@ -52,21 +52,16 @@
            </div>
 
             <div class="Funny">
-                <button class="control">Prev</button>
-                <div class="slide-container">
-                    <div class="slides">
-                        <img src="background.jpg" class="slide">
-                        <img src="profile.png" class="slide">
-                    </div>
-                </div>
-                <button class="control">Next</button>
+               <video width="100%" height="100%" autoplay muted controls loop>
+                    <source src="video-1.mp4" type="video/mp4" >
+                </video>
             </div>
 
             <div class="Contact bg-white">
                 <label>Contact</label>
                 <form method="post" onsubmit="sendMessage()">
                     <div class="form-group">
-                        <input required type="email" name="Email" class="form-control" placeholder="Email">
+                        <input  type="email" name="Email" class="form-control" placeholder="Email">
                     </div>
                     <div class="form-group">
                         <input required type="text" name="Subject" class="form-control" placeholder="Subject">

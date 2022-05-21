@@ -78,6 +78,18 @@ footer{
 	flex-basis: 10px;
 }
 
+.slide-container .slides{
+	display: flex;
+	width: 95% !important;
+	height: 100% !important;
+	transition: 0.5s all;
+}
+
+.slide-container .slides .slide{
+	transition: 1s all;
+	object-fit: cover;
+}
+
 .Contact {
 	height: 450px;
 	margin-top: 40px;

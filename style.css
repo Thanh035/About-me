@@ -30,7 +30,8 @@ header{
 }
 
 footer{
-	margin-top: 50px;
+	
+	padding-top: 50px;
 }
 
 .fa{
@@ -60,25 +61,29 @@ footer{
  .AboutMe {
 	height: 400px;
 	margin-top: 40px;
+	border-radius: 10px;
+	border:solid 1px black;
 }
 
  .Projects {
 	height: 350px;
 	margin-top: 40px;
+	border-radius: 10px;
+	border:solid 1px black;
 }
 
  .Funny {
-	height: 100%;
+	height: 500px;
 	margin-top: 40px;
-	border-radius: 1px;
-	border:solid 1px black;
-	display: flex;
+	
 }
 
 
-.Contact {
+.Skills {
 	height: 450px;
 	margin-top: 40px;
+	border-radius: 10px;
+	border:solid 1px black;
 }
 
  label{

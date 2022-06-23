@@ -16,10 +16,12 @@ img {
 
 body{
 	font-family: Arial;
-	font-size: 15px;
+	font-size: 15px auto;
     width: 100%;
-    height: 1000px;
+    height: auto;
     background-color: #a83232;
+	margin: 0px auto;
+	padding: 0px auto;
 }
 
 header{
@@ -73,9 +75,9 @@ footer{
 }
 
  .Funny {
-	height: 500px;
+	height: auto;
+	width: auto;
 	margin-top: 40px;
-	
 }
 
 
@@ -87,36 +89,31 @@ footer{
 }
 
  label{
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: bold;
-	margin: 70px 70px 40px 70px;
-	height: 10%;
+	margin: 50px 50px 30px 50px ;
+	height: 5% auto;
+	color: orange;
 }
 
 .form-group{
-	height: 80%;
+	height: 80% auto;
 	display: flex;
 	margin-left: 20px;
 	margin-right: 20px;
+	margin-bottom: 20px;
 }
 
 .logo{
-	height: auto;
-	width:	40%;
-	margin-right: 30px;
+	height: 100% auto;
+	width:	35% ;
+	margin-right: 10px ;
 }
 
 .content{
-	height: 100%;
-	width: 60%;
-	padding: 0px 0px 0px 0px;
-	margin-left: 30px;
-	font-size: 20px;
-}
-
-
-.form-group{
-	margin-bottom: 15px;
+	height: 100% ;
+	width: 65% ;
+	margin-left: 10px ;
 }
 
 .form-control{

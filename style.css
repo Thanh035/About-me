@@ -1,146 +1,144 @@
-div{
-	display: block;
+div {
+    display: block;
 }
 
 img {
-  max-width: 100%;
+    max-width: 100%;
 }
 
-
-#rotate{
-   transition: 1.5s ease-out;
-}
-#rotate:hover{
-   transform: rotate(1turn);
+#rotate {
+    transition: 1.5s ease-out;
 }
 
+#rotate:hover {
+    transform: rotate(1turn);
+}
 
+html {
+    scroll-behavior: smooth;
+}
 
 @media all and (max-width: 480px) {
-	body {
-		font-size: 0.4rem;
-	}
-
+    body {
+        font-size: 0.4rem;
+    }
 }
 
 @media all and (min-width: 1024px) {
-	body {
-		font-size: 1.2rem;
-	}
-
+    body {
+        font-size: 1.2rem;
+    }
 }
 
-body{
-	font-family: Arial;
-    background-color: #a83232;
-	margin: 0px auto;
-	padding: 0px auto;
+body {
+    font-family: Arial;
+    margin: 0px auto;
+    padding: 0px auto;
+    background-image: url(background.jpg);
+    background-size: contain;
+    
 }
 
-header{
-	text-align: center;
-	margin-top: 50px;
-	border: none;
-	color: white;
+header {
+    text-align: center;
+    border: none;
+    color: white;
+    position: relative;
+    font-weight: bold;
 }
 
-footer{
-	padding-top: 50px;
+footer {
+    padding-top: 40px;
+    bottom: 0;
+    margin-bottom: 0px;
 }
 
-.fa{
-	  padding: 20px;
-	  font-size: 20px;
-	  max-width: 50px;
-	  text-align: center;
-	  text-decoration: none;
-	  color: white;
+.fa {
+    font-size: 20px;
+    max-width: 50px;
+    text-decoration: none;
+    color: white;
+    padding: 20px;
 }
 
 .fa:hover {
-  opacity: 0.7;
+    opacity: 0.7;
 }
 
- .background-layer{
-            position: absolute;
-            top: 0px;
-            min-width: 100%;
-            min-height: 230px;
-            opacity: 0.3;
-            z-index: -1;
-            background-size: cover;
+.background-layer {
+    position: absolute;
+    top: 0px;
+    min-width: 100%;
+    min-height: 230px;
+    z-index: -1;
+    background-size: cover;
 }
 
-
- .AboutMe {
-	height: auto;
-	margin-top: 40px;
-	border-radius: 10px;
-	border:solid 1px black;
+.AboutMe {
+    height: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: solid 1px black;
 }
 
- .Projects {
-	height: 350px;
-	margin-top: 40px;
-	border-radius: 10px;
-	border:solid 1px black;
+.Projects {
+    height: 350px;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: solid 1px black;
 }
 
- .Funny {
-	height: auto;
-	width: auto;
-	margin-top: 40px;
+.Funny {
+    height: auto;
+    width: auto;
+    margin-top: 40px;
 }
 
 .Skills {
-	height: auto;
-	margin-top: 40px;
-	border-radius: 10px;
-	border:solid 1px black;
+    height: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    border: solid 1px black;
 }
 
- label{
-	font-size: 20px;
-	font-weight: bold;
-	margin: 50px 50px 30px 50px ;
-	height: 20% auto;
-	color: orange;
+label {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 50px 50px 30px 50px;
+    height: 20% auto;
+    color: orange;
 }
 
-.form-group{
-	height: 80% ;
-	display: flex;
-	margin-left: 20px;
-	margin-right: 20px;
-	margin-bottom: 20px;
+.form-group {
+    height: 80%;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
-.logo{
-	height: 100% ;
-	width:	35% ;
-	margin-right: 10px ;
+.logo {
+    height: 100%;
+    width: 35%;
+    margin-right: 10px;
 }
 
-.content{
-	height: 100% ;
-	width: 65% ;
-	margin-left: 10px ;
+.content {
+    height: 100%;
+    width: 65%;
+    margin-left: 10px;
 }
 
-.form-control{
-	width: 90%;
-	height: 43px;
-	border-radius: 8px;
-	border: solid 1px transparent;
-	background-color: #eee;
+.form-control {
+    width: 90%;
+    height: 43px;
+    border-radius: 8px;
+    border: solid 1px transparent;
+    background-color: #eee;
 }
 
-.btn{
-	background-color: red;
-	border: solid 1px transparent;
-	border-radius: 50px;
+.btn {
+    background-color: red;
+    border: solid 1px transparent;
+    border-radius: 50px;
 }
-
-
-
-

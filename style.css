@@ -26,16 +26,15 @@ body {
     bottom: 0px;
     background-image: url(https://img.freepik.com/free-vector/flowing-speed-lines-technology-background_1017-31772.jpg?w=2000);
     background-size: contain;
+    
 }
 
 header {
-    height: 200px;
+    max-height: 200px;
     text-align: center;
     border: none;
     color: white;
     font-weight: bold;
-    top: 0px;
-    margin-bottom: 0px;
 }
 
 main {
@@ -44,7 +43,7 @@ main {
 }
 
 footer {
-    height: 200px;
+    
 }
 
 header audio {
@@ -63,35 +62,12 @@ header .social-list .fa:hover {
     opacity: 0.7;
 }
 
-.AboutMe {
+.nav-form {
     max-width: 100%;
-
-    margin-top: 40px;
+    margin-top: 20px;
     border-radius: 10px;
     border: solid 1px black;
-}
-
-.Projects {
-    max-width: 100%;
-
-    margin-top: 40px;
-    border-radius: 10px;
-    border: solid 1px black;
-}
-
-.Funny {
-    max-width: 100%;
-
-    width: auto;
-    margin-top: 40px;
-}
-
-.Skills {
-    max-width: 100%;
-
-    margin-top: 40px;
-    border-radius: 10px;
-    border: solid 1px black;
+    background-color: #eee;
 }
 
 label {
@@ -137,30 +113,10 @@ label {
 }
 
 footer .introduction {
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
 
-/* PC   */
-@media (min-width: 1024px) {
-    body {
-        font-size: 1.2rem;
-    }
-}
-
-/* Tablet */ 
-@media (min-width: 740px) and (max-width: 1023px) {
-    body {
-        
-    }
-}
-
-/*  Mobile  */
-@media (max-width: 740px) {
-    body {
-        font-size: 0.4rem;
-    }
-}
 
 
 

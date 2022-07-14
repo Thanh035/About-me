@@ -18,42 +18,40 @@ html {
     scroll-behavior: smooth;
 }
 
-@media all and (max-width: 480px) {
-    body {
-        font-size: 0.4rem;
-    }
-}
-
-@media all and (min-width: 1024px) {
-    body {
-        font-size: 1.2rem;
-    }
-}
-
 body {
     font-family: Arial;
-    margin: 0px auto;
-    padding: 0px auto;
-    background-image: url(background.jpg);
+    margin: 0px ;
+    padding: 0px;
+    top:0;
+    bottom: 0px;
+    background-image: url(https://img.freepik.com/free-vector/flowing-speed-lines-technology-background_1017-31772.jpg?w=2000);
     background-size: contain;
-    
 }
 
 header {
+    height: 200px;
     text-align: center;
     border: none;
     color: white;
-    position: relative;
     font-weight: bold;
-}
-
-footer {
-    padding-top: 40px;
-    bottom: 0;
+    top: 0px;
     margin-bottom: 0px;
 }
 
-.fa {
+main {
+
+    margin-top: 0px;
+}
+
+footer {
+    height: 200px;
+}
+
+header audio {
+    margin: 15px 0px;
+}
+
+header .social-list .fa {
     font-size: 20px;
     max-width: 50px;
     text-decoration: none;
@@ -61,41 +59,36 @@ footer {
     padding: 20px;
 }
 
-.fa:hover {
+header .social-list .fa:hover {
     opacity: 0.7;
 }
 
-.background-layer {
-    position: absolute;
-    top: 0px;
-    min-width: 100%;
-    min-height: 230px;
-    z-index: -1;
-    background-size: cover;
-}
-
 .AboutMe {
-    height: auto;
+    max-width: 100%;
+
     margin-top: 40px;
     border-radius: 10px;
     border: solid 1px black;
 }
 
 .Projects {
-    height: 350px;
+    max-width: 100%;
+
     margin-top: 40px;
     border-radius: 10px;
     border: solid 1px black;
 }
 
 .Funny {
-    height: auto;
+    max-width: 100%;
+
     width: auto;
     margin-top: 40px;
 }
 
 .Skills {
-    height: auto;
+    max-width: 100%;
+
     margin-top: 40px;
     border-radius: 10px;
     border: solid 1px black;
@@ -142,3 +135,32 @@ label {
     border: solid 1px transparent;
     border-radius: 50px;
 }
+
+footer .introduction {
+    padding-top: 50px;
+}
+
+
+/* PC   */
+@media (min-width: 1024px) {
+    body {
+        font-size: 1.2rem;
+    }
+}
+
+/* Tablet */ 
+@media (min-width: 740px) and (max-width: 1023px) {
+    body {
+        
+    }
+}
+
+/*  Mobile  */
+@media (max-width: 740px) {
+    body {
+        font-size: 0.4rem;
+    }
+}
+
+
+
